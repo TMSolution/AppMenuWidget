@@ -1,0 +1,13 @@
+{
+  "name": "tmsolution-appmenu",
+  "description": "Application menu",
+  "keywords": [
+    "sidebar menu"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    "Mariusz Piela"
+  ],
+  "license": "MIT"
+  
+}
