@@ -20,7 +20,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 50px;
+  padding-top:65px;
   min-height: 100%;
   width: 230px;
   z-index: 810;
@@ -32,9 +32,22 @@
 @media (max-width: 767px) {
   .main-sidebar,
   .left-side {
-    padding-top: 100px;
+    padding-top: 0px;
   }
 }
+
+
+@media (max-width: 767px) {
+  .main-sidebar
+  {
+     z-index: 2810;
+     padding-top:0px !imporan;
+      
+  }
+
+
+}
+
 @media (max-width: 767px) {
   .main-sidebar,
   .left-side {
@@ -145,7 +158,7 @@
   .sidebar-mini.sidebar-collapse .right-side,
   .sidebar-mini.sidebar-collapse .main-footer {
     margin-left: 50px!important;
-    z-index: 840;
+    z-index: 1840;
   }
   .sidebar-mini.sidebar-collapse .main-sidebar {
     -webkit-transform: translate(0, 0);
@@ -153,7 +166,7 @@
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
     width: 50px!important;
-    z-index: 850;
+    z-index: 1850;
   }
   .sidebar-mini.sidebar-collapse .sidebar-menu > li {
     position: relative;
